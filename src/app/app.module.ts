@@ -8,6 +8,7 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
 import { TodoTaskComponent } from './components/todo-task/todo-task.component';
 import { DoneTaskComponent } from './components/done-task/done-task.component';
 import { MaterialModule } from './modules/material.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MaterialModule } from './modules/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

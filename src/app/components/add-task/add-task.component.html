@@ -5,15 +5,15 @@
     <mat-card-content>
             <mat-form-field class="example-full-width" appearance="fill">
               <mat-label>Title</mat-label>
-              <input class="im" matInput placeholder="">
+              <input class="im" matInput placeholder="" [(ngModel)]="newTask">
             </mat-form-field>
           
             <mat-form-field class="example-full-width" appearance="fill">
               <mat-label>Description</mat-label>
-              <input class="im" matInput placeholder="Might be empty">
+              <input class="im" matInput placeholder="Might be empty" [(ngModel)]="newDescription">
             </mat-form-field>
     </mat-card-content>
     <mat-card-actions>
-        <button mat-flat-button color="primary">Add</button>
+        <button mat-flat-button color="primary" (click)="add()">Add</button>
     </mat-card-actions>
 </mat-card>
