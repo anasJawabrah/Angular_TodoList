@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-card-title>
+        <h1>To do tasks</h1>
+    </mat-card-title>
+    <mat-card-content *ngFor="let task of tasksList">
+        {{task.title}} - {{task.description}}
+    </mat-card-content>
+</mat-card>

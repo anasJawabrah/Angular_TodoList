@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.add{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.results{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}

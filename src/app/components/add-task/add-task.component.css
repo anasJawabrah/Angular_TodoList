@@ -1,0 +1,11 @@
+mat-card-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-full-width {
+    width: 100%;
+  }
+  button{
+      width: 100%;
+  }
